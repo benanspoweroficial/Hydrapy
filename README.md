@@ -6,3 +6,9 @@ This is a brute-force attack tool written entirely in Python. Just run it with "
 *The tool is written in Python and is still an early version, so it's still slow and tends to experience temporary IP blocks.*
 
 **For educational and entertainment purposes only**
+
+**REQUIREMENTS:**
+The dictionary "rockyou.txt" is in the same folder as Hydrapy.
+Python.
+The colorama Python library.
+The requests Python library.
