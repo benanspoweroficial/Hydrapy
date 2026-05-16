@@ -19,7 +19,7 @@ def BruteForce(url,username,password_list):
         response = requests.post(url,data=data,headers=headers,allow_redirects=True)
 
         if message not in response.text:
-            print(f"{colorama.Fore.GREEN}[+] Exito: Username: {username}, password: {password}")
+            print(f"{colorama.Fore.GREEN}[+] Success: Username: {username}, password: {password}")
             break
         else:
             print(f"{colorama.Fore.RED}[-] Failed: {password}")
