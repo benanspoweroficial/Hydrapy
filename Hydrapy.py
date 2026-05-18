@@ -3,6 +3,9 @@ import colorama
 
 colorama.init()
 
+print(f"{colorama.Fore.CYAN}A tool developed by: BenansPower")
+print(f"{colorama.Fore.YELLOW}------ HYDRAPY ------")
+
 link = input("url: ")
 user = input("Username: ")
 message = input("Fail message: ")
